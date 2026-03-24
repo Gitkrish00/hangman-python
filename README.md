@@ -9,6 +9,3 @@ A simple command-line Hangman game built using Python.
 - Random word selection
 - User input handling
 - Win/Loss logic
-
-## How to run
-python hangman.py
