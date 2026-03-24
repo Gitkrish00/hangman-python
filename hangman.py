@@ -78,7 +78,7 @@ def main():
             break
 
         guess = user_guess()
-        wrong_guess, guessed_letters = update_scorlines(word, wrong_guess, user_guess, guessed_letters)
+        guessed_letters, wrong_guess = update_scorlines(word, wrong_guess, guess, guessed_letters)
  
     else:
         print("You loose the game")
@@ -86,5 +86,4 @@ def main():
                 print(line)
         print(f"The words was {word}")
 main()
-    
 
